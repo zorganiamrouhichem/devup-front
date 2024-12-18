@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import axiosInstance from "../axiosConfig"; // Assurez-vous que vous avez une instance d'axios configurée avec les paramètres nécessaires
+import axiosInstance from "../../axiosConfig"; // Assurez-vous que vous avez une instance d'axios configurée avec les paramètres nécessaires
 import Cookies from "js-cookie"; // Importer le module js-cookie
 
 import { useNavigate } from "react-router-dom"; 
